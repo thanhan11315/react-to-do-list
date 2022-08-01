@@ -11,10 +11,12 @@
     padding: 30px 30px 20px;
     text-align: center;
 }
-.container .box-title div:nth-child(2){
+
+.container .box-title div:nth-child(2) {
     width: 100%;
     display: flex;
 }
+
 .container .box-title .title {
     font-size: 20px;
     font-weight: bold;
@@ -25,7 +27,8 @@
     width: 80%;
     margin: 0px;
     padding: 5px 0px;
-    border: 2px solid #ffffff;}
+    border: 2px solid #ffffff;
+}
 
 .container .box-title .input:focus-visible {
     outline: none;
@@ -40,7 +43,14 @@
     padding: 0px;
 }
 
-.container .box-title .hidden{
+.container .span {
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 0px;
+    background-color: inherit;
+}
+
+.container .box-title .hidden {
     display: none;
 }
 
@@ -86,7 +96,6 @@
     color: red;
 }
 
-.red{
+.red {
     color: red;
-    text-decoration: underline;
 }
